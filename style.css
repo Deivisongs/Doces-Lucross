@@ -349,6 +349,38 @@ nav .divCentralNav .logo p{
 }
 
 /* Section Garantia */
+/*Smartphone */
+.garantia {
+    background-color: transparent;
+    padding: 40px 20px;
+    text-align: center;
+    display: none;
+}
+    .garantia-box {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #d1959042;
+    border: 2px dashed #d19590;
+    padding: 30px;
+    border-radius: 12px;
+}
+    .garantia-box .divGarantia img{
+    width: 100px;
+}
+    .garantia-text {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #444;
+}
+    .garantia-destaque {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #b37e79;
+    font-size: 18px;
+}
+
+/* Desktop */
+
 .sectionGarantia{
     padding: 80px 0;
 }
@@ -426,6 +458,10 @@ nav .divCentralNav .logo p{
 }
 .avaliacoes .sectionPadrao > div span header div h3{
     font-size: 15px;
+}
+.avaliacoes .sectionPadrao > div span header div p strong{
+    color: gold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.233);
 }
 .avaliacoes .sectionPadrao > div span header div p{
     position: relative;
@@ -624,7 +660,11 @@ footer{
     }
 
     /* Section Garantia */
+    .garantia {
+        display: block;
+    }
     .sectionGarantia{
+        display: none;
         padding: 40px 0;
     }
     .sectionGarantia .sectionPadrao{
